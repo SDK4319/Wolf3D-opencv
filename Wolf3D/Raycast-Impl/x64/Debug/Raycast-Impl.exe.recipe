@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\project\Wolf3D-opencv\Wolf3D\x64\Debug\Raycast-Impl.exe</FullPath>
+      <FullPath>C:\Projects\Wolf3D-opencv\Wolf3D\x64\Debug\Raycast-Impl.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

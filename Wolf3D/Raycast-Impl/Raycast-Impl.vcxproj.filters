@@ -18,6 +18,9 @@
     <Filter Include="Map">
       <UniqueIdentifier>{36a0e11d-1609-4957-8e8d-9ac9baaa02f0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{9660fee2-eaa8-4b9a-9350-44af699a8866}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -30,7 +33,10 @@
       <Filter>Screen</Filter>
     </ClCompile>
     <ClCompile Include="Map.cpp">
-      <Filter>Main</Filter>
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Texture</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -41,7 +47,10 @@
       <Filter>Screen</Filter>
     </ClInclude>
     <ClInclude Include="Map.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Texture</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -11,6 +11,12 @@ void Screen::setPixel(int x, int y, cv::Scalar color)
 		std::cout << "setPixel Error => pixel ptr is nullptr" << std::endl;
 		exit(1);
 	}
+	if (flipX) {
+		x = width - 1 - x;
+	}
+	if (flipY) {
+		y = width - 1 - y;
+	}
 	int offset = (y * width + x) * step;
 	pixel[offset] = color[0];
 	pixel[offset + 1] = color[1];
@@ -20,4 +26,11 @@ void Screen::setPixel(int x, int y, cv::Scalar color)
 void Screen::disp(std::string window_name)
 {
 	cv::imshow(window_name, frame);
+}
+
+
+void Screen::disp(std::string window_name, int screenWidth, int screenHeight, int type) {
+	cv::Mat temp;
+	cv::resize(frame, temp, cv::Size(screenWidth, screenHeight),0,0,type);
+	cv::imshow(window_name,temp);
 }

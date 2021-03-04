@@ -1,4 +1,4 @@
 ﻿  main.cpp
-C:\project\Wolf3D-opencv\Wolf3D\Raycast-Impl\main.cpp(10,29): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
-C:\project\Wolf3D-opencv\Wolf3D\Raycast-Impl\main.cpp(68,17): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  Raycast-Impl.vcxproj -> C:\project\Wolf3D-opencv\Wolf3D\x64\Debug\Raycast-Impl.exe
+C:\Projects\Wolf3D-opencv\Wolf3D\Raycast-Impl\main.cpp(12,29): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Projects\Wolf3D-opencv\Wolf3D\Raycast-Impl\main.cpp(146,17): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Raycast-Impl.vcxproj -> C:\Projects\Wolf3D-opencv\Wolf3D\x64\Debug\Raycast-Impl.exe
