@@ -1,2 +1,5 @@
 # Wolf3D-opencv
-Wolf3d Engine Implementation with openCV
+WOLF3D Engine Implementation with openCV
+
+OS: Windows10
+IDE: Visual Studio 2019
